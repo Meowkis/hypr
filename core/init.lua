@@ -1,0 +1,5 @@
+require("core.monitors")
+require("core.env")
+require("core.autostart")
+require("core.input")
+require("core.misc")
