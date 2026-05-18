@@ -86,8 +86,6 @@ hl.window_rule({
     no_initial_focus = true
 })
 
-
-
 --telegram fix media
 hl.window_rule({
     match = {
