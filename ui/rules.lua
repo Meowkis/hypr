@@ -69,23 +69,6 @@ hl.window_rule({
 
 --hyprctl dispatch exec "[workspace special silent] /home/meowkis/.local/share/Steam/steamapps/common/projectM/projectMSDL"
 
-
-hl.window_rule({
-    match = {
-        class = "projectMSDL"
-    },
-
-    no_focus = true,
-    float = true,
-    pin = true,
-    opaque = false,
-    no_shadow = true,
-    no_blur = true,
-    rounding = 0,
-    render_unfocused = true,
-    no_initial_focus = true
-})
-
 --telegram fix media
 hl.window_rule({
     match = {
