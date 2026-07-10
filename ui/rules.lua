@@ -77,3 +77,36 @@ hl.window_rule({
     },
     float = true,
 })
+
+
+hl.window_rule({
+    match = {
+        class = "org.pulseaudio.pavucontrol",
+        title = "Volume Control"
+    },
+    float = true,
+    move = {"1112", "53"},
+    size = {"784", "462"}
+})
+
+
+hl.window_rule({
+    match = {
+        class = "org.pulseaudio.pavucontrol",
+        title = "Volume Control"
+    },
+    float = true,
+    move = {"1112", "53"},
+    size = {"784", "462"}
+})
+
+hl.window_rule({
+    match = {
+        class = "AmneziaVPN",
+    },
+    float = true,
+    move = {"735", "207"},
+    size = {"380", "680"}
+})
+
+
