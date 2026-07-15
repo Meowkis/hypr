@@ -12,3 +12,14 @@ hl.bind(mainMod .. " + down",  hl.dsp.focus({ direction = "down" }))
 hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(),   { mouse = true })
 hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
 hl.bind(mainMod .. " + P", hl.dsp.window.pin(hl.dsp.window.focused))
+
+
+
+
+hl.window_rule({
+    name = "transparent-floating",
+    match = {
+        float = true,
+    },
+    opacity = "0.85 override 0.75 override 1.0 override",
+})
